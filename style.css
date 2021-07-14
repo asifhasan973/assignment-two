@@ -13,11 +13,9 @@ nav{
 
 #banner-section{
     width: 100%;
-    height: 675px;
-   
+    height: 675px;  
     background-color: #2D25A0;
 }
-
 
 .menu-bar{
     display: flex;
@@ -30,6 +28,7 @@ nav{
     color: rgb(30, 228, 228);
     margin: 15px;
 }
+
 .menu-items{
     margin-top: 35px;
     margin-left: 20px;
@@ -64,8 +63,7 @@ nav{
 
 .fa-sign-in-alt{
     font-size: 25px;
-    margin: 10px;
-    
+    margin: 10px; 
 }
 
 .button a{
@@ -90,7 +88,6 @@ nav{
 .welcome-heading{
     width: 485px;
     height: 350px;
-    
 }
 
 .welcome-heading h1{
@@ -136,7 +133,6 @@ nav{
 }
 
 
-
 /* Players Section Style Start  */
 
 .players-section{
@@ -177,9 +173,7 @@ nav{
     color: #EB224B; 
 }
 
-
  /* Highlights Section style start  */
-
 
  .highlights-section{
     margin: 50px 0 0 0;
@@ -226,8 +220,7 @@ nav{
     margin-top: 20px;
     box-shadow: 10px 10px 30px gray;
     border-radius: 5px;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
 }
 
 .countdown-details{
@@ -243,8 +236,7 @@ nav{
 }
 
 .countdown-details h2{
-    font-size: 35px;
-    
+    font-size: 35px; 
 }
 
 .countdown-details p{
@@ -277,8 +269,7 @@ nav{
 
 .news-div{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    
+    grid-template-columns: repeat(2, 1fr);   
 }
 
 .individual-news{
@@ -291,7 +282,6 @@ nav{
 
 .news-details{
     margin-left: 20px;
-    
     padding-right: 10px;
 }
 
@@ -319,8 +309,6 @@ nav{
 
 /* footer start */
 
-
-
 .footer-main{
     display: flex;
     flex-direction: column;
@@ -342,7 +330,6 @@ nav{
     color: #10437A;
 }
 
-
 .social-icons a{
     text-decoration: none;
     color: rgb(61, 59, 59);
@@ -354,11 +341,13 @@ nav{
     font-weight: 700;
 }
 
+
 /* Word highlighter */
 
 .word-highlighter{
     color: #EB224B;
 }
+
 
 /* Media Query Mobile */
 
@@ -387,8 +376,7 @@ nav{
     .main-banner{
         display: flex;
         flex-direction: column;
-        align-items: center;
-        
+        align-items: center;     
     }
 
     .welcome-heading{
@@ -434,18 +422,14 @@ nav{
         width: 90%;
         height: 310px;
         padding: 20px 0 20px 20px;
-
     }
-
-    
 
     .highlights-img img{
         width: 95%;
         padding-left: 9px;
         margin: 0;
         position: relative;
-        top: 130px;
-        
+        top: 130px;  
     }
 
     
@@ -454,6 +438,8 @@ nav{
     }
 
     /* `   Highlight Media Query Done */
+
+
 
     /* Countdown Media query Start */
 
@@ -472,8 +458,8 @@ nav{
         padding: 0;
     }
 
-    /* News Section Media Query Start */
 
+    /* News Section Media Query Start */
 
     .news-div{
         display: flex;
@@ -483,7 +469,6 @@ nav{
     .individual-news{
     display: inline;
     width: 90%;
-    
     }
 
     .news-details{
