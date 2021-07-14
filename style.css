@@ -43,6 +43,9 @@ nav{
     margin-right: 25px;
 }
 
+.menu-items a:hover{
+    color: violet;
+}
 
 /* Login Button */
 
@@ -150,8 +153,7 @@ nav{
 
 .individual-player{
     width: 310px;
-    height: 485px;
-    
+    height: 485px; 
     padding: 15px 5px 30px 15px ; 
     box-shadow: 10px 10px 30px gray;
     margin-right: 30px;
@@ -159,6 +161,10 @@ nav{
     border-radius: 5px;
 }
 
+.individual-player:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in;
+}
 
 .player-img img{
     width: 300px;
@@ -167,8 +173,10 @@ nav{
 
 .player-details h1{
     font-weight: 700;
-    font-size: 28px;    
+    font-size: 28px;  
+    color: #EB224B; 
 }
+
 
  /* Highlights Section style start  */
 
@@ -176,7 +184,7 @@ nav{
  .highlights-section{
     margin: 50px 0 0 0;
     padding: 0px 0 15px 0;
-    height: 550px ;
+    height: 580px ;
     background-color: #2D25A0;
     display: flex;
     justify-content: space-evenly;
@@ -202,6 +210,10 @@ nav{
     padding-top: 80px;
 }
 
+.highlights-img:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in;
+}
 
 /* Countdown-Style-Start */
 
@@ -221,6 +233,7 @@ nav{
 .countdown-details{
     width: 350px;
     padding-left: 10px;
+    padding: 50px;
 }
 
 .countdown-details h1{
@@ -240,9 +253,13 @@ nav{
 }
 
 .countdown-img img{
-    padding-top: 10px;
+    padding-top: 60px;
     width: 370px;
-    padding-right: 10px;
+    padding-right: 40px;
+}
+
+.start-in{
+    color: #2D25A0;
 }
 
 /* News Section style Start  */
@@ -283,6 +300,10 @@ nav{
     color: white;
     font-size: 20px;
     font-weight: 700;
+}
+
+.news-details a:hover{
+    color: violet;
 }
 
 .news-details p{
@@ -333,6 +354,11 @@ nav{
     font-weight: 700;
 }
 
+/* Word highlighter */
+
+.word-highlighter{
+    color: #EB224B;
+}
 
 /* Media Query Mobile */
 
@@ -435,12 +461,15 @@ nav{
         width: 100%;
     }
 
+    .countdown-details{
+        padding: 0;
+    }
     .countdown-img-and-info{
         display:inline;
     }
 
     .countdown-img img{
-        padding-right: 0px;
+        padding: 0;
     }
 
     /* News Section Media Query Start */
