@@ -43,6 +43,7 @@ nav{
     margin-right: 25px;
 }
 
+
 /* Login Button */
 
 .login-button{
@@ -54,7 +55,7 @@ nav{
     display: flex;
     color: white;
     height: 44px;
-    width: 125px;
+    width: 110px;
     border-radius: 5px;
 }
 
@@ -70,7 +71,10 @@ nav{
     font-size: 18px;
     font-weight: 500;
     margin-top: 9px;
+}
 
+.button:hover{
+    transform: scale(1.1);
 }
 
 /* Main Banner style Start */
@@ -116,7 +120,117 @@ nav{
     margin-top: 50px;
 }
 
+/* Hover effect */
+
 .welcome-img img:hover{
     transform: scale(1.1);
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button-arrow:hover{
+    background-image: linear-gradient(to left, #dba6ac, #EB1D47);
+    transform: scale(1.1);
+}
+
+
+
+/* Players Section Style Start  */
+
+.players-section{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.players-div{
+    margin: 10px 20px 10px 
+    20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+}
+
+.individual-player{
+    width: 310px;
+    height: 485px;
+    
+    padding: 15px 5px 30px 15px ; 
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+
+.player-img img{
+    width: 300px;
+    height: 256px;
+}
+
+.player-details h1{
+    font-weight: 700;
+    font-size: 28px;    
+}
+
+
+
+
+
+/* Media Query Mobile */
+
+@media screen and (max-width: 688px) {
+
+    
+
+    #banner-section{
+        height: 850px;
+    }
+
+    .menu-bar{
+        margin: 0;
+    }
+
+    .menu-items{
+        display: none;
+    }
+
+    .login-button{
+        margin: 27px 20px 0 0;
+    }
+
+    .main-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .welcome-heading{
+        margin-left: 20px;
+        width: 90%;
+        height: 250px;
+    }
+
+    .welcome-heading h1{
+        font-size: 50px;
+    }
+
+    .button-arrow{
+        margin-left: 20px;
+    }
+
+    .welcome-img img{
+        width: 90%;
+        margin-left: 20px;
+    }
+
+    /* media query heading finished */
+
+    .players-div{
+        
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    /* media query Players section finished */
+
 }
